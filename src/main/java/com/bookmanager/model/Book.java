@@ -8,7 +8,7 @@ import javax.persistence.*;
  * Created by ruslan on 28.03.17.
  */
 @Entity
-@Table(name = "book")
+@Table(name = "books")
 @Getter
 @Setter
 @ToString
