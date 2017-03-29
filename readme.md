@@ -1,8 +1,8 @@
 **Table**
 
-CREATE TABLE `bookmanager`.`books` (
-  `id` INT(11) NOT NULL,
-  `title` VARCHAR(255) NOT NULL,
-  `author` VARCHAR(255) NOT NULL,
-  `price` INT(11) NOT NULL,
-  PRIMARY KEY (`id`));
+CREATE TABLE books (
+  id INT NOT NULL AUTO_INCREMENT,
+  title VARCHAR(255) NOT NULL,
+  author VARCHAR(255) NOT NULL,
+  price INT NOT NULL,
+  PRIMARY KEY (id));

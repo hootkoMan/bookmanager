@@ -27,12 +27,12 @@
         <property name="dataSource" ref="dataSource"/>
         <property name="annotatedClasses">
             <list>
-                <value>net.proselyte.bookmanager.model.Book</value>
+                <value>com.bookmanager.model.Book</value>
             </list>
         </property>
         <property name="hibernateProperties">
             <props>
-                <prop key="hibernate.dialect">org.hibernate.dialect.MySQLDialect
+                <prop key="hibernate.dialect">org.hibernate.dialect.MySQL5Dialect
                 </prop>
                 <prop key="hibernate.show_sql">true</prop>
             </props>
